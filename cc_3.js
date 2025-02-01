@@ -15,3 +15,22 @@ let total = orders.reduce((sum, orders)=>sum + orders, 0);
 console.log("My orders:", orders);
 console.log("The total of my orders:", total);
 
+// task 3 : Employee Performance Tracking Scenario
+
+let employee = {
+    name: "Spongebob",
+    role: "fry cook",
+    performanceScore: 89,
+    isActive: true,
+};
+//I declared an object with properties 
+
+let performanceScore = 91;
+//changed the performance score 
+
+let promotionEligible = performanceScore >= 90 ? "Promotion Eligible" : "Not promotion Eligible";
+// added property set the condiotn of promotion is eligible 
+
+console.log(employee);
+console.log("preformance score", employee.performanceScore);
+console.log(promotionEligible);

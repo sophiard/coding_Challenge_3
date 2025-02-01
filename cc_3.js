@@ -49,3 +49,14 @@ feedback.push({customerName: "Easter Bunny", feedbackText: "gave me candy", rati
 // I added a new onject to the array
 
 console.log(feedback);
+
+//task 5
+
+let inventory = {itemName: "door knobs", stockcount: 1900, price: 35};
+// declared an object inventory 
+
+calculateTotalValue = inventory.stockcount * inventory.price
+// added a method that returns the total value
+
+console.log(inventory)
+console.log("Total value of Inventory:" , calculateTotalValue)

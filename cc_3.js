@@ -34,3 +34,18 @@ let promotionEligible = performanceScore >= 90 ? "Promotion Eligible" : "Not pro
 console.log(employee);
 console.log("preformance score", employee.performanceScore);
 console.log(promotionEligible);
+
+// task 4
+
+let feedback = [
+    {customerName: "Santa Clause", feedbackText: "Delivered my presents on time", rating: 9},
+    {customerName: "Tooth Fairy", feedbackText: "did not leave me money", rating: 2},
+    {customerName: "Leprechaun", feedbackText: "escaped the trap", rating: 5},
+];
+// I declared an array that contains three different objects
+
+
+feedback.push({customerName: "Easter Bunny", feedbackText: "gave me candy", rating: 8});
+// I added a new onject to the array
+
+console.log(feedback);
